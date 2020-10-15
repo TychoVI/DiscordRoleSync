@@ -6,7 +6,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
 public class PlayerJoinedListener implements Listener {
+
     private final DiscordRoleSync plugin;
+
     public PlayerJoinedListener(DiscordRoleSync plugin) {
         this.plugin = plugin;
     }

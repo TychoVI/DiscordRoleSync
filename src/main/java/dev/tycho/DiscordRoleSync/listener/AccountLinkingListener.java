@@ -14,7 +14,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class AccountLinkingListener {
-    private DiscordRoleSync plugin;
+
+    private final DiscordRoleSync plugin;
+
     public AccountLinkingListener(DiscordRoleSync plugin) {
         plugin.getLogger().info("Account link listener initialized");
         this.plugin = plugin;

@@ -110,9 +110,4 @@ public class DiscordRoleSync extends JavaPlugin {
                     ChatColor.BLUE + role.getName());
         }
     }
-
-    @Override
-    public void onDisable() {
-
-    }
 }

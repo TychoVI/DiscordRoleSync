@@ -9,6 +9,7 @@ import javax.annotation.Nonnull;
 import java.util.UUID;
 
 public class RoleChangeListener extends ListenerAdapter {
+
     private final DiscordRoleSync plugin;
 
     public RoleChangeListener(DiscordRoleSync plugin) {
