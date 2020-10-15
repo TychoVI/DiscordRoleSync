@@ -2,11 +2,8 @@ package dev.tycho.DiscordRoleSync.listener;
 
 import dev.tycho.DiscordRoleSync.DiscordRoleSync;
 import github.scarsz.discordsrv.DiscordSRV;
-import github.scarsz.discordsrv.dependencies.jda.api.events.GenericEvent;
-import github.scarsz.discordsrv.dependencies.jda.api.hooks.EventListener;
 import github.scarsz.discordsrv.dependencies.jda.api.events.guild.member.GuildMemberRoleAddEvent;
 import github.scarsz.discordsrv.dependencies.jda.api.hooks.ListenerAdapter;
-import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;
