@@ -4,21 +4,19 @@ import dev.tycho.DiscordRoleSync.DiscordRoleSync;
 import github.scarsz.discordsrv.api.Subscribe;
 import github.scarsz.discordsrv.api.events.AccountLinkedEvent;
 import github.scarsz.discordsrv.api.events.AccountUnlinkedEvent;
-import github.scarsz.discordsrv.dependencies.jda.api.entities.Role;
 import net.luckperms.api.node.Node;
 import net.luckperms.api.node.NodeType;
 import net.luckperms.api.node.types.InheritanceNode;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
-import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static org.graalvm.compiler.options.OptionType.User;
-
 public class AccountLinkingListener {
-    private DiscordRoleSync plugin;
+
+    private final DiscordRoleSync plugin;
+
     public AccountLinkingListener(DiscordRoleSync plugin) {
         plugin.getLogger().info("Account link listener initialized");
         this.plugin = plugin;
